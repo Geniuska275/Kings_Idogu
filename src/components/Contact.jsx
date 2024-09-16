@@ -12,7 +12,7 @@ const Contact = () => {
         <div className="text-center tracking-tighter">
             <p className="my-4 ">{contact.address}</p>
             <p className="my-4 ">{contact.phone}</p>
-            <a href="" className=" border-b">{contact.email}</a>
+            <a href="mailto:aigbojie2020@gmail.com" className=" border-b">{contact.email}</a>
 
         </div>
 
