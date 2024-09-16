@@ -11,8 +11,8 @@ const Contact = () => {
         <h1 className="my-10 text-center text-4xl ">Get in Touch</h1>
         <div className="text-center tracking-tighter">
             <p className="my-4 ">{contact.address}</p>
-            <p className="my-4 ">{contact.phone}</p>
-            <a href="mailto:aigbojie2020@gmail.com" className=" border-b">{contact.email}</a>
+            <p className="my-4 underline ">{contact.phone}</p>
+            <a href="mailto:aigbojie2020@gmail.com" className=" border-b ">{contact.email}</a>
 
         </div>
 
