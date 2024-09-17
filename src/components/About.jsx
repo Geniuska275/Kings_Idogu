@@ -1,5 +1,5 @@
 import {motion} from "framer-motion"
-
+import image2 from "./ki.jpeg";
 export const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -14,7 +14,7 @@ export const About = () => {
             
             className="w-full lg:w-1/2 lg:p-8">
               <div className="flex items-center justify-center">
-                <img className="w-[300px] rounded-2xl " src="https://images.unsplash.com/photo-1607294846590-fd005d7973e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGV2ZWxvcGVyfGVufDB8fDB8fHww"/>
+                <img className="w-[300px] rounded-2xl " src={image2}/>
               </div>
             </motion.div>
               <motion.div 

@@ -1,5 +1,7 @@
 
 import { motion } from "framer-motion"
+import image1 from "./k.jpeg";
+import image2 from "./ki.jpeg";
 
 const container=(delay)=>({
   hidden:{x:-100, opacity:0},
@@ -44,7 +46,7 @@ export const Hero = () => {
                 transition={{duration:1,delay:1.2}}
 
                 className="w-[300px] mt-10 rounded-2xl"
-                src="https://images.unsplash.com/photo-1607294846590-fd005d7973e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGV2ZWxvcGVyfGVufDB8fDB8fHww"/>
+                src={image1}/>
              </div>
 
             </div>
