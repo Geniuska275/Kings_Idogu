@@ -3,34 +3,40 @@ import {motion} from "framer-motion"
 const Projects = () => {
    const projects=[
     { 
-      title:"E-commerce",
-      description:"An e-commerce website ",
+      title:"YOUTUBE",
+      description:"A YOUTUBE CLONE ",
       image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
-      technologies:["Reactjs","Tailwindcss","Typescript"]
+      technologies:["Reactjs","Tailwindcss"],
+      projectlink:"https://youtube-rose-two.vercel.app/"
     },
     { 
-      title:"E-commerce",
-      description:"An e-commerce website ",
+      title:" A Todo Application",
+      description:"A simple react todo application ",
       image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
-      technologies:["Reactjs","Tailwindcss","Typescript"]
+      technologies:["Reactjs","Tailwindcss","React Context"],
+      projectlink:"https://react-todo-application-nine.vercel.app/"
     },
     { 
-      title:"E-commerce",
-      description:"An e-commerce website ",
+      title:"Swift Exchange",
+      description:"An Informational website for Swift Exchange ",
       image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
-      technologies:["Reactjs","Tailwindcss","Typescript"]
+      technologies:["Reactjs","Tailwindcss","Vercel"],
+      projectlink:"https://www.swiftglobalex.com/ "
     },
     { 
-      title:"E-commerce",
-      description:"An e-commerce website ",
+      title:"SQE HOLDINGS",
+      description:"A market application ",
       image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
-      technologies:["Reactjs","Tailwindcss","Typescript"]
+      technologies:["Reactjs","Tailwindcss","Typescript"],
+      projectlink:"https://sqe-market-app-51l3-fn4n8y53x-geniuska275.vercel.app/ "
+  
     },
     { 
-      title:"E-commerce",
-      description:"An e-commerce website ",
+      title:"Viscio Express",
+      description:"A logistic web application ",
       image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
-      technologies:["Reactjs","Tailwindcss","Typescript"]
+      technologies:["Reactjs","Tailwindcss","Typescript"],
+      projectlink:"https://www.viscio.com.ng/"
     },
     { 
       title:"E-commerce",
@@ -78,6 +84,10 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
+              <a href={project.projectlink}>
+                 <button className="mr-2  bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900 hover:text-white">View</button>
+
+                </a>
               </motion.div>
 
           </div>
