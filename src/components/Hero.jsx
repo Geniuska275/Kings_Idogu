@@ -1,7 +1,7 @@
 
 import { motion } from "framer-motion"
 import image1 from "./k.jpeg";
-import image2 from "./ki.jpeg";
+
 
 const container=(delay)=>({
   hidden:{x:-100, opacity:0},
