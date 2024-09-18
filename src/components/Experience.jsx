@@ -2,42 +2,41 @@ import {motion} from "framer-motion"
 const Experience = () => {
 
     const experiences=[
+        { year:"2024-present",
+                    company:"IT360academy",
+        
+                role:"Web Development Instructor.",
+                description:"web instructor for html,css and javascript.",
+                technologies:["html", "css", "javascript"]
+                },
         { 
-        year:"2021-2022",
-        company:"Alusoft Technologies",
+        year:"2023-present",
+        company:"SQE HOLDINGS",
 
-        role:"Frontend Instructor",
-        description:"Taught html,css and javascript",
-        technologies:["html", "css", "js"]
+        role:"Frontend Developer (contract)",
+        description:"Working Development team to build web applications",
+        technologies:["Reactjs","Tailwindcss","Github"]
         },
-        { year:"2021-2022",
-            company:"Alusoft Technologies",
-
-        role:"Frontend Instructor",
-        description:"Taught html,css and javascript",
-        technologies:["html", "css", "js"]
+        { year:"2023-2024",
+            role:"Frontend Developer",
+            company:"Viscio Express",
+            description:"worked with other frontend developers to add new features to the website.",
+            technologies:["Reactjs", "Tailwindss", "vercel","Github"]
         },
-        { year:"2021-2022",
-            role:"Frontend Instructor",
-            company:"Alusoft Technologies",
-            description:"Taught html,css and javascript",
-            technologies:["html", "css", "js"]
-        },
-        { year:"2021-2022",
-            role:"Frontend Instructor",
-            company:"Alusoft Technologies",
-
-            description:"Taught html,css and javascript",
-            technologies:["html", "css", "js"]
-            },
-         
-        { year:"2021-2022",
+        { year:"2022-2023",
                 role:"Frontend Instructor",
             company:"Alusoft Technologies",
 
-                description:"lorem ipsum dolor sit amet, consectetur adip",
-                technologies:["html", "css", "js"]
+                description:"Taught the students html ,css and javascript",
+                        technologies:["html", "css", "javascript"]
         },
+           { year:"2022-2023",
+            role:"FullStack  Developer",
+            company:"Darkel Microsystems",
+            description:"Developed and maintained web applications using Nodejs and PostgreSQL for clients in e-commerce and healthcare, ensuring robust functionality. ",
+            technologies:["Nodejs", "Reactjs", "PostgreSQL" ,"Github"]
+            },
+         
 
     ]
   return (

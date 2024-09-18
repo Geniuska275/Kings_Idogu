@@ -34,7 +34,8 @@ export const Hero = () => {
                 initial="hidden"
                 animate="visible" 
                  className="my-2 max-w-xl py-6 font-light tracking-tighter">
-                    I am a passionate front-end developer with a keen eye for design and a strong foundation in JavaScript. I have a strong understanding of HTML, CSS, and modern JavaScript frameworks like React and Next.js. I am currently looking for opportunities to collaborate on innovative and challenging projects.
+                    I am a passionate front-end developer with a keen eye for design and a strong foundation
+                     in JavaScript. I have a strong understanding of HTML, CSS,Tailwindcss,Typescript and modern JavaScript frameworks like React and Next.js. I am currently looking for opportunities to collaborate on innovative and challenging projects.
                 </motion.p>
               </div>
             </div>
