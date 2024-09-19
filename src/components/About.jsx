@@ -28,9 +28,9 @@ export const About = () => {
                     Hi, I’m Kingsley Aigbojie, a passionate frontend developer with over 3 years of experience building responsive, visually appealing, and user-friendly websites.
                      My expertise lies in creating clean, efficient code and intuitive interfaces
                       that enhance user experience.
-                       I’m deeply motivated by the challenge of turning complex designs into seamless
+                        I’m deeply motivated by the challenge of turning complex designs into seamless
                         digital products.I also love team work and helping others to solve problems.
-                        I specialize in HTML5, CSS3,TailwindCss,Typescript and JavaScript (ES6+), and I have extensive experience with modern frameworks like React and Nextjs.
+                        I specialize in HTML5, CSS3,TailwindCss,Typescript and JavaScript (ES6+), and I have extensive experience with modern frameworks like React and Nextjs.I also build mobile applications with React-Native (expo).
                       
                       </p>
                  </div>
