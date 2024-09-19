@@ -24,7 +24,15 @@ export const About = () => {
                
               className="w-full lg:w-1/2">
                   <div className="flex justify-center lg:justify-start">
-                    <p className="my-2 max-w-xl py-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni est numquam assumenda temporibus? Magni quo totam, accusamus porro nostrum ex rem labore autem dolores ea qui vel natus nisi necessitatibus!</p>
+                    <p className="my-2 max-w-xl py-6">
+                    Hi, I’m Kingsley Aigbojie, a passionate frontend developer with over 3 years of experience building responsive, visually appealing, and user-friendly websites.
+                     My expertise lies in creating clean, efficient code and intuitive interfaces
+                      that enhance user experience.
+                       I’m deeply motivated by the challenge of turning complex designs into seamless
+                        digital products.I also love team work and helping others to solve problems.
+                        I specialize in HTML5, CSS3,TailwindCss,Typescript and JavaScript (ES6+), and I have extensive experience with modern frameworks like React and Nextjs.
+                      
+                      </p>
                  </div>
               </motion.div>
             <div>
