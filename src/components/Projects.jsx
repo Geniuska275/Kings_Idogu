@@ -2,20 +2,7 @@ import {motion} from "framer-motion"
 
 const Projects = () => {
    const projects=[
-    { 
-      title:"YOUTUBE",
-      description:"A YOUTUBE CLONE ",
-      image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
-      technologies:["Reactjs","Tailwindcss"],
-      projectlink:"https://youtube-rose-two.vercel.app/"
-    },
-    { 
-      title:" A Todo Application",
-      description:"A simple react todo application ",
-      image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
-      technologies:["Reactjs","Tailwindcss","React Context"],
-      projectlink:"https://react-todo-application-nine.vercel.app/"
-    },
+ 
     { 
       title:"Swift Exchange",
       description:"An Informational website for Swift Exchange ",
