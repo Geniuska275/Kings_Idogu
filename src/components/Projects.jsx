@@ -1,7 +1,14 @@
 import {motion} from "framer-motion"
 
 const Projects = () => {
-   const projects=[
+  const projects=[
+     { 
+       title:"GreenFusion Energy",
+       description:"An Information website for GreenFusion Energy ltd ",
+       image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
+       technologies:["Reactjs","Tailwindcss","Typescript"],
+        projectlink:"https://www.greenfusion.enery"
+     },
  
     { 
       title:"Swift Exchange",
@@ -30,13 +37,6 @@ const Projects = () => {
       description:"An e-commerce website ",
       image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
       technologies:["Reactjs","Tailwindcss","Typescript"]
-    },
-    { 
-      title:"GreenFusion Energy",
-      description:"An Information website for GreenFusion Energy ltd ",
-      image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
-      technologies:["Reactjs","Tailwindcss","Typescript"],
-       projectlink:"https://www.greenfusion.enery"
     },
    ]
   return (
