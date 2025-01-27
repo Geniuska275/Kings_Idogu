@@ -33,10 +33,18 @@ const Projects = () => {
       projectlink:"https://www.viscio.com.ng/"
     },
     { 
-      title:"E-commerce",
-      description:"An e-commerce website ",
+      title:"Imperatrice Wristhub",
+      description:"An mini e-commerce website ",
       image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
-      technologies:["Reactjs","Tailwindcss","Typescript"]
+      technologies:["Reactjs","Tailwindcss","Typescript"],
+      projectlink:"https://imperattice.vercel.app/"
+    },
+    { 
+      title:"CBTforge",
+      description:"An Educational website ",
+      image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
+      technologies:["Reactjs","Tailwindcss","Typescript"],
+      projectlink:"https://cbtforge.vercel.app/"
     },
    ]
   return (
