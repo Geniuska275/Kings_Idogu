@@ -2,7 +2,7 @@ import {motion} from "framer-motion"
 const Contact = () => {
     const contact={
         address:"Lagos,Nigeria",
-        phone:"09011192901",
+        phone:"08103546428",
         email:"aigbojie2020@gmail.com"
 
     }
