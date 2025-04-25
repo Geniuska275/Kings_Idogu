@@ -4,7 +4,6 @@ const Contact = () => {
         address:"Lagos,Nigeria",
         phone:"08103546428",
         email:"aigbojie2020@gmail.com"
-
     }
   return (
     <div className="border-b border-neutral-900 pb-20">

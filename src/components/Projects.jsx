@@ -3,48 +3,11 @@ import {motion} from "framer-motion"
 const Projects = () => {
   const projects=[
     { 
-      title:"Dragonswap",
-      description:"A web3 frontend project ",
-      image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
-      technologies:["Reactjs","Tailwindcss","Typescript"],
-       projectlink:"https://coruscating-semolina-80c174.netlify.app/"
-    },
-     { 
-       title:"GreenFusion Energy",
-       description:"An Information website for GreenFusion Energy ltd ",
-       image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
-       technologies:["Reactjs","Tailwindcss","Typescript"],
-        projectlink:"https://www.greenfusion.energy"
-     },
- 
-    { 
-      title:"Swift Exchange",
-      description:"An Informational website for Swift Exchange ",
-      image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
-      technologies:["Reactjs","Tailwindcss","Vercel"],
-      projectlink:"https://www.swiftglobalex.com/ "
-    },
-    { 
-      title:"SQE HOLDINGS",
-      description:"A market application ",
-      image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
-      technologies:["Reactjs","Tailwindcss","Typescript"],
-      projectlink:"https://sqe-market-app-51l3-fn4n8y53x-geniuska275.vercel.app/ "
-  
-    },
-    { 
       title:"Viscio Express",
       description:"A logistic web application ",
       image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
       technologies:["Reactjs","Tailwindcss","Typescript"],
       projectlink:"https://www.viscio.com.ng/"
-    },
-    { 
-      title:"Imperatrice Wristhub",
-      description:"An mini e-commerce website ",
-      image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
-      technologies:["Reactjs","Tailwindcss","Typescript"],
-      projectlink:"https://imperattice.vercel.app/"
     },
     { 
       title:"CBTforge",
@@ -53,6 +16,43 @@ const Projects = () => {
       technologies:["Reactjs","Tailwindcss"],
       projectlink:"https://cbtforge.vercel.app/"
     },
+    { 
+      title:"GreenFusion Energy",
+      description:"An Information website for GreenFusion Energy ltd ",
+      image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
+      technologies:["Reactjs","Tailwindcss","Typescript"],
+       projectlink:"https://www.greenfusion.energy"
+    },
+
+    { 
+      title:"Dragonswap",
+      description:"A web3 frontend project ",
+      image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
+      technologies:["Reactjs","Tailwindcss","Typescript"],
+       projectlink:"https://coruscating-semolina-80c174.netlify.app/"
+    },
+    { 
+      title:"Swift Exchange",
+      description:"An Informational website for Swift Exchange ",
+      image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
+      technologies:["Reactjs","Tailwindcss","Vercel"],
+      projectlink:"https://www.swiftglobalex.com/ "
+    },
+    // { 
+    //   title:"SQE HOLDINGS",
+    //   description:"A market application ",
+    //   image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
+    //   technologies:["Reactjs","Tailwindcss","Typescript"],
+    //   projectlink:"https://sqe-market-app-51l3-fn4n8y53x-geniuska275.vercel.app/ "
+  
+    // },
+    // { 
+    //   title:"Imperatrice Wristhub",
+    //   description:"An mini e-commerce website ",
+    //   image:"https://images.unsplash.com/photo-1719937051230-8798ae2ebe86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
+    //   technologies:["Reactjs","Tailwindcss","Typescript"],
+    //   projectlink:"https://imperattice.vercel.app/"
+    // },
    ]
   return (
     <div className='border-b border-neutral-500 pb-4'>
@@ -64,6 +64,8 @@ const Projects = () => {
         Projects</motion.h2>
       <div>
         {projects.map((project,index)=>(
+          
+
           <div key={index} className="mb-8 flex flex-wrap  lg:justify-center ">
               <motion.div 
                 whileInView={{opacity:1,x:0}}
@@ -88,12 +90,13 @@ const Projects = () => {
                 </span>
               ))}
               <a href={project.projectlink}>
-                 <button className="mr-2  bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900 hover:text-white">View</button>
+                 <button className="mr-2  bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900 hover:text-white">View project</button>
 
                 </a>
               </motion.div>
 
           </div>
+          
         ))}
       </div>
 

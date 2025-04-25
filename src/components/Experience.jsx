@@ -2,35 +2,27 @@ import {motion} from "framer-motion"
 const Experience = () => {
 
     const experiences=[
-        { year:"2024-present",
-                    company:"IT360academy",
-        
-                role:"Web Development Instructor.",
-                description:"web instructor for html,css and javascript.",
-                technologies:["html", "css", "javascript"]
-                },
-        { 
-        year:"2023-present",
-        company:"SQE HOLDINGS",
-
-        role:"Frontend Developer (contract)",
-        description:"Working Development team to build web applications",
-        technologies:["Reactjs","Tailwindcss","Github"]
-        },
-        { year:"2023-2024",
+            { year:"2024-present",
+              company:"Deejoft Technologies",
+              role:" Frontend Developer and Web Development Instructor.",
+               description:" building web and mobile applications alongside web instructor for html,css and javascript.",
+               technologies:["html", "css","Tailwind","Typescript", "Javascript","Reactjs","React-Native"]
+              },
+               { 
+               year:"2023-present",
+               company:"SQE HOLDINGS",
+               role:"Frontend Developer (contract)",
+               description:"Working with the development team to build web and mobile applications. ",
+               technologies:["Reactjs","Tailwindcss","Github","React-Native","Typescript","Vercel"]
+               },
+              {  
+             year:"2023-2024",
             role:"Frontend Developer",
             company:"Viscio Express",
             description:"worked with other frontend developers to add new features to the website.",
             technologies:["Reactjs", "Tailwindss", "vercel","Github"]
-        },
-        { year:"2022-2023",
-                role:"Frontend Instructor",
-            company:"Alusoft Technologies",
-
-                description:"Taught the students html ,css and javascript",
-                        technologies:["html", "css", "javascript"]
-        },
-           { year:"2022-2023",
+           },
+           { year:"2022-2024",
             role:"FullStack  Developer",
             company:"Darkel Microsystems",
             description:"Developed and maintained web applications using Nodejs and PostgreSQL for clients in e-commerce and healthcare, ensuring robust functionality. ",
