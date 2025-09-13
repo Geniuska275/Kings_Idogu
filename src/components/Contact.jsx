@@ -1,9 +1,9 @@
 import {motion} from "framer-motion"
 const Contact = () => {
     const contact={
-        address:"Lagos,Nigeria",
-        phone:"08103546428",
-        email:"aigbojie2020@gmail.com"
+        address:"London,United Kingdom",
+        phone:"+447398460844",
+        email:"kingsuthanaidogu@gmail.com"
     }
   return (
     <div className="border-b border-neutral-900 pb-20">

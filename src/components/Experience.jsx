@@ -2,31 +2,47 @@ import {motion} from "framer-motion"
 const Experience = () => {
 
     const experiences=[
-            { year:"2024-present",
-              company:"Deejoft Technologies",
-              role:" Frontend Developer and Web Development Instructor.",
-               description:" building web and mobile applications alongside web instructor for html,css and javascript.",
-               technologies:["html", "css","Tailwind","Typescript", "Javascript","Reactjs","React-Native"]
+            { year:" September 2024-January 2025",
+              company:"NORTHUMBRIA UNIVERSITY – LONDON ENGLAND",
+              role:" Student",
+               description:" ",
+               technologies:["Natural Language Processing", 
+                "Generative AI",
+                "Convolutional Neural Network",
+                "Machine Learning",
+                 "Deep Learning",
+                 "Robotics",
+                
+                ]
               },
                { 
-               year:"2023-present",
-               company:"SQE HOLDINGS",
-               role:"Frontend Developer (contract)",
-               description:"Working with the development team to build web and mobile applications. ",
-               technologies:["Reactjs","Tailwindcss","Github","React-Native","Typescript","Vercel"]
+               year:" April 2022- july 2024",
+               company:"Dev Carrier Africa – Lagos",
+
+               role:"Software Developer / Backend Team Lead",
+               description:"",
+               technologies:[".Net","C#","Github"]
                },
               {  
-             year:"2023-2024",
-            role:"Frontend Developer",
-            company:"Viscio Express",
-            description:"worked with other frontend developers to add new features to the website.",
-            technologies:["Reactjs", "Tailwindss", "vercel","Github"]
+             year:"January 2020- February 2022",
+            role:"Software Developer",
+            company:"SEVEN UP BOTTLING COMPANY LAGOS",
+           
+               technologies:[".Net","C#","Github"]
+            
            },
-           { year:"2022-2024",
-            role:"FullStack  Developer",
-            company:"Darkel Microsystems",
-            description:"Developed and maintained web applications using Nodejs and PostgreSQL for clients in e-commerce and healthcare, ensuring robust functionality. ",
-            technologies:["Nodejs", "Reactjs", "PostgreSQL" ,"Github"]
+           { year:" August 2019- January 2020",
+            role:"Software Developer",
+            company:"Conclase Academy ",
+            // description:"Developed and maintained web applications using Nodejs and PostgreSQL for clients in e-commerce and healthcare, ensuring robust functionality. ",
+            technologies:["C#", ".Net", "MySql" ,"Github"]
+            },
+
+            { year:"2018-  2019",
+            role:"Software Developer",
+            company:"Ist Kings International ",
+            // description:"Developed and maintained web applications using Nodejs and PostgreSQL for clients in e-commerce and healthcare, ensuring robust functionality. ",
+            technologies:["C#", ".Net", "MySql" ,"Github"]
             },
          
 
