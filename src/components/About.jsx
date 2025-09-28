@@ -1,5 +1,5 @@
 import {motion} from "framer-motion"
-import image2 from "./kingspro.jpeg";
+import image2 from "./realkings.jpeg";
 export const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">

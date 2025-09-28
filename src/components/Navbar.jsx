@@ -21,7 +21,7 @@ function Navbar() {
           <FaGithub/>
             </a>
           {/* <FaSquareXTwitter/> */}
-          <a href="https://wa.me/+2348165418019">
+          <a href="https://wa.me/+447398460844">
 
           <FaWhatsapp/>
           </a>
